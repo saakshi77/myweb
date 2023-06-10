@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{%include "header.html" %}
+	<title>Contact Us | My Travel Site</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			background-color: #F8F8F8;
+		}
+		.heading {
+			background-color: #006699;
+			color: #fff;
+			padding: 20px;
+		}
+		h1 {
+			margin: 0;
+			font-size: 40px;
+			text-align: center;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 40px;
+			box-sizing: border-box;
+			background-color: #fff;
+			box-shadow: 0 2px 10px rgba(0,0,0,.1);
+			border-radius: 10px;
+		}
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		.col {
+			width: calc(50% - 10px);
+			background-color: #fff;
+			box-shadow: 0 2px 10px rgba(0,0,0,.1);
+			border-radius: 10px;
+			padding: 20px;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			position: relative;
+		}
+		.col h2 {
+			margin-top: 0;
+			margin-bottom: 20px;
+			font-size: 24px;
+			color: #333;
+		}
+		.col p {
+			margin: 0;
+			font-size: 16px;
+			color: #999;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.col .icon {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			font-size: 24px;
+			color: #333;
+			cursor: pointer;
+			transition: color .3s ease;
+		}
+		.col .icon:hover {
+			color: #006699;
+		}
+		.col .icon-facebook:before {
+			content: "\f09a";
+		}
+		.col .icon-twitter:before {
+			content: "\f099";
+		}
+		.col .icon-instagram:before {
+			content: "\f16d";
+		}
+		.col .icon-youtube:before {
+			content: "\f16a";
+		}
+	</style>
+</head>
+<body>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="heading">
+		<h1>Contact Us</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2>Address</h2>
+				<p>123 Main Street, City, State Zip Code</p>
+				<a href="#" class="icon icon-facebook"><img src="/static/Facebook-logo.png"height=25px></a>
+				<a href="#" class="icon icon-twitter"><img src="/static/insta.avif" height=10px></a>
+				<a href="/https://www.instagram.com/travelhead/?hl=en" class="icon icon-instagram"></a>
+				<a href="#" class="icon icon-youtube"></a>
+			</div>
+			<div class="col">
+				<h2>Social Media</h2>
+				<p>Follow us on social media for travel inspiration, tips, and updates:</p>
+				<a href="https://www.instagram.com/travelhead/?hl=en" class="icon icon-facebook"></a>
